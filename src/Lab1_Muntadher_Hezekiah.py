@@ -4,6 +4,3 @@
 #
 # Description: Develop a Python program that generates secure passwords based on user-defined
 # criteria, such as length, number of letters, digits, and special characters.
-
-# Define alphabet array
-ENGLISH_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
