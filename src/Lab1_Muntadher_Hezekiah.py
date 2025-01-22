@@ -28,6 +28,10 @@ def main():
 
     # Step 1: Get user inputs for password length and character distribution
 
+    # Step 2: Validate user inputs
+
+    # Step 3: Generate the password
+
     # Generate a random letter
     random_letter = random.choice(string.ascii_letters)
     print(f"Random letter: {random_letter}")
@@ -39,10 +43,6 @@ def main():
     # Generate a random special character
     random_special = random.choice(string.punctuation)
     print(f"Random special character: {random_special}")
-    # Step 2: Validate user inputs
-
-    # Step 3: Generate the password
-
     # Step 4: Display the generated password
 
     # Step 5: Save password to file
