@@ -18,6 +18,19 @@ def get_user_input(prompt, min_value, max_value):
 def generate_password(length, num_letters, num_digits, num_specials):
     # Ensure total requested characters do not exceed length
     # Generate required characters (letters, digits, specials)
+
+    # Generate a random letter
+    random_letter = random.choice(string.ascii_letters)
+    print(f"Random letter: {random_letter}")
+
+    # Generate a random digit
+    random_digit = random.choice(string.digits)
+    print(f"Random digit: {random_digit}")
+
+    # Generate a random special character
+    random_special = random.choice(string.punctuation)
+    print(f"Random special character: {random_special}")
+
     # Fill remaining characters
     # Shuffle and return password
     pass
@@ -32,17 +45,6 @@ def main():
 
     # Step 3: Generate the password
 
-    # Generate a random letter
-    random_letter = random.choice(string.ascii_letters)
-    print(f"Random letter: {random_letter}")
-
-    # Generate a random digit
-    random_digit = random.choice(string.digits)
-    print(f"Random digit: {random_digit}")
-
-    # Generate a random special character
-    random_special = random.choice(string.punctuation)
-    print(f"Random special character: {random_special}")
     # Step 4: Display the generated password
 
     # Step 5: Save password to file
